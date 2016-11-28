@@ -1,26 +1,3 @@
-<!-- Code Challenge #5 | 25 Points -->
-
-<!-- Directions:
-
-Step 1:
-Select all of this document, copy and paste it into a new document in sublime text.
-
-Step 2:
-Inside of the .container div, insert typography tags h2, h3, h4, h5, h6. Add some content inside of each tag. 
-
-Step 3: 
-After each h tag, add a p tag with some content inside of it.
-
-Step 3:
-In the style tag, write some CSS for each of the tags you added to create a well-designed typography style tile. Consider things like font-family, font-size, color, letter-spacing, line-height, etc.
-
-Step 4: 
-Paste all the code from your sublime document back into github and commit your changes.
-
-BONUS: Implement a web font from font-squirrel correctly for 3 extra points.
-
--->
-
 <!DOCTYPE html>
 <html>
 	<head>
@@ -29,16 +6,41 @@ BONUS: Implement a web font from font-squirrel correctly for 3 extra points.
 			body {
 				margin: 0;
 				padding: 0;
+				background-color: beige;
 			}
 			header {
 				padding: 50px 0;
 			}
 			header h1 {
-				text-align: center;
+				text-align: left;
+
 			}
 			section {
 				padding: 25px 0;
 			}
+			h2{
+			color: blue;
+			text-align: left;
+			padding: 30px;
+			background-color: red;
+			}
+			h3{
+				color: red;
+				text-align: left;
+				background-color:blue;
+			}
+			h4{
+				color: yellow;
+				text-align: left;
+				background-color: purple;
+			}
+			h5{
+				color: purple;
+				text-align: left;
+				background-color: yellow;
+			}
+
+
 		</style>
 	</head>
 	<body>
@@ -47,6 +49,14 @@ BONUS: Implement a web font from font-squirrel correctly for 3 extra points.
 		</header>
 		<section>
 			<div class="container">
+			<h2> This is the second head</h2>
+			<p>This is the second paragraph</p>
+			<h3>This is the third head</h3>
+			<p>Third paragraph</p>
+			<h4>This is the fourth head</h4>
+			<p>This is the fourth paragraph</p>
+			<h5>This is the fifth head</h5>
+			<p>This is the fifth paragraph</p>
 			</div>
 		</section>
 		<footer>
